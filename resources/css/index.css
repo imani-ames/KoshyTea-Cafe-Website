@@ -160,7 +160,8 @@ nav a {
 
 .middle .mid .box .content h2 {
     font-size: 3rem;
-    color: #ffff;
+    font-weight: 300;
+    color: #fff;
 }
 
 .footer {
