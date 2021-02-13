@@ -58,57 +58,6 @@ nav a {
     text-decoration: none;
 }
 
-.btn {
-    display: inline-block;
-    color: #fff;
-    background-color: #7f5539;
-    padding: 0.5rem 2rem;
-    margin-top: 1.5rem;
-    border-radius: 20px;
-    border: 1px solid;
-    font-weight: 400;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.btn:hover {
-    background-color: #fff;
-    color: #7f5539;
-}
-
-.section .rewards-banner {
-    background-color: #7f5539;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 28rem;
-    align-self: center;
-    text-align: center;
-    padding: 1.6rem;
-    margin: 2rem;
-}
-
-.section .rewards-banner .right img {
-    max-height: 100%;
-    max-width: 100%;
-    
-}
-
-.section .rewards-banner .left {
-    align-self: center;
-    text-align: center;
-    padding: 1.6rem;
-}
-
-.section .rewards-banner .left h2 span {
-    color: #ffff;
-    font-weight: 600;
-}
-.section .rewards-banner .left h3 span {
-    color: #ffff;
-    font-weight: 300;
-}
-
 .about {
     text-align: center;
     align-items: center;
@@ -117,14 +66,18 @@ nav a {
     padding: 10rem 10rem;
 }
 
-.about h2 {
-    font-weight: 400;
+.about h1 {
+    text-align: center;
+    color: #7f5539;
+    font-size: 3rem;
+    font-weight: 600;
     margin-bottom: 3rem;
 }
 
-.about h3 {
-    font-weight: 300;
+.about h2 {
+    font-weight: 400;
     word-spacing: normal;
+    color: #7f5539;
 }
 
 .middle .mid {
@@ -163,6 +116,141 @@ nav a {
     font-weight: 300;
     color: #fff;
 }
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #7f5539;
+    padding: 0.5rem 2rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #7f5539;
+}
+
+.section .rewards-banner {
+    background-color: #7f5539;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 28rem;
+    align-self: center;
+    text-align: center;
+    padding: 1.6rem;
+    margin: 3rem;
+}
+
+.section .rewards-banner .right img {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+.section .rewards-banner .left {
+    align-self: center;
+    text-align: center;
+    padding: 1.6rem;
+}
+
+.section .rewards-banner .left h2 span {
+    color: #ffff;
+    font-weight: 600;
+}
+
+.section .rewards-banner .left h3 span {
+    color: #ffff;
+    font-weight: 300;
+}
+
+.form-header h1{
+    padding-top: 5rem;
+    text-align: center;
+    color: #7f5539;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#form{
+    height: 100%; 
+    background-color: #efebce;
+    overflow: hidden;
+    position: relative;
+    
+  }
+
+  form{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 40px;
+    color: #7f5539;
+    position: relative;
+    margin-bottom: 3rem;
+  }
+
+  label, input, textarea{
+    display: block; 
+  }
+
+  input, textarea{
+    width: 500px; 
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-size: 1em;
+    color: #7f5539;
+    border: solid 0.5px #efebce;  
+    box-sizing:border-box;
+    
+  }
+
+  input:focus, textarea:focus{
+    border: dotted 2px #7f5539;  
+  }
+  
+  textarea{
+    height: 100px;  
+    resize: none; 
+    overflow: auto;
+  }
+
+  input[type="submit"]{
+    background-color: #7f5539;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.29em;
+  }
+
+  input[type="submit"]:hover{
+    background-color: rgb(127,85,57, 0.9);
+    color: #fff;
+    
+  }
+
+  label{
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+  .formgroup, .formgroup-active, .formgroup-error{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 10.5%;
+    padding-top: 2px;
+  }
+  
+
+
 
 .footer {
     background-color: #7f5539;
