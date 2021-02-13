@@ -94,6 +94,7 @@ nav a {
     height: 100%;
     width: 100%;
     z-index: -1;
+   opacity: 0.5;
 }
 
 .middle .mid .box {
@@ -104,6 +105,7 @@ nav a {
     overflow: hidden;
     z-index: 1;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.15);
+    background-color: #333;
 }
 
 .middle .mid .box .content {
@@ -113,7 +115,7 @@ nav a {
 
 .middle .mid .box .content h2 {
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -149,8 +151,7 @@ nav a {
 
 .section .rewards-banner .right img {
     max-height: 100%;
-    max-width: 100%;
-    
+    max-width: 100%;  
 }
 
 .section .rewards-banner .left {
@@ -161,7 +162,8 @@ nav a {
 
 .section .rewards-banner .left h2 span {
     color: #ffff;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 .section .rewards-banner .left h3 span {
@@ -191,7 +193,7 @@ nav a {
     padding-top: 40px;
     color: #7f5539;
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
   }
 
   label, input, textarea{
