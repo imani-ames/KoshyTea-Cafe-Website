@@ -57,6 +57,7 @@ nav a {
     letter-spacing: 1px;
     text-decoration: none;
 }
+ /* About Section*/
 
 .about {
     text-align: center;
@@ -79,6 +80,7 @@ nav a {
     word-spacing: normal;
     color: #7f5539;
 }
+/* Middle Section with the Cards*/
 
 .middle .mid {
     display: grid;
@@ -94,7 +96,7 @@ nav a {
     height: 100%;
     width: 100%;
     z-index: -1;
-   opacity: 0.5;
+    opacity: 0.8;
 }
 
 .middle .mid .box {
@@ -119,15 +121,16 @@ nav a {
     color: #fff;
 }
 
+/* Rewards Section */
 .btn {
     display: inline-block;
-    color: #fff;
-    background-color: #7f5539;
+    color: #7f5539;
+    background-color: #efebce;
     padding: 0.5rem 2rem;
     margin-top: 1.5rem;
     border-radius: 20px;
     border: 1px solid;
-    font-weight: 400;
+    font-weight: bold;
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
@@ -142,10 +145,9 @@ nav a {
     background-color: #7f5539;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 28rem;
+    height: 26.1rem;
     align-self: center;
     text-align: center;
-    padding: 1.6rem;
     margin: 3rem;
 }
 
@@ -170,6 +172,10 @@ nav a {
     color: #ffff;
     font-weight: 300;
 }
+
+
+/* Contact Us Form*/
+
 
 .form-header h1{
     padding-top: 5rem;
@@ -252,7 +258,7 @@ nav a {
   }
   
 
-
+/* footer*/
 
 .footer {
     background-color: #7f5539;
