@@ -1,3 +1,52 @@
+.coffee {
+    background-color: #efebce;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cup {
+    height: 140px;
+    width: 180px;
+    border: 6px solid white #335c67;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-radius: 0px 0px 70px 70px;
+    background: url("/resources/images/coffee.png"); 
+    box-shadow: 0px 0px 0px 6px white;
+    background-repeat: repeat-x;
+    background-position: 0px 140px;
+    animation: fill 2.5s infinite;
+  }
+  .handle {
+    height: 70px;
+    width: 40px;
+    background-color: transparent;
+    border: 6px solid white;
+    position: relative;
+    left: 186px;
+    top: 5px;
+    border-radius: 0px 25px 80px 0px;
+  }
+  
+  @keyframes fill{
+    0%{
+      background-position: 0px 140px;
+    }
+    20%{
+      background-position:-450px 100px;
+    }
+    40%{
+      background-position: -900px 50px;
+    }
+    80%{
+      background-position: -1350px -40px;
+    }
+    100%{
+      background-position: 0px 140px;
+    }
+  }
+
 *,
 *:before,
 *:after {
@@ -11,7 +60,7 @@ html {
 }
 
 body {
-    background-color: #efebce;
+    background-color: whitesmoke;
 }
 
 nav {
@@ -30,7 +79,7 @@ nav {
 
 header {
     height: 100vh;
-    background: url("/resources/images/pexels-afta-putta-gunawan-683039.jpg");
+    background: url('/resources/images/pexels-afta-putta-gunawan-683039.jpg');
     background-size: cover;
     background-position: center center;
 }
@@ -187,7 +236,7 @@ nav a {
 
 #form{
     height: 100%; 
-    background-color: #efebce;
+    background-color: whitesmoke;
     overflow: hidden;
     position: relative;
     
