@@ -1,52 +1,3 @@
-.coffee {
-    background-color: #efebce;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .cup {
-    height: 140px;
-    width: 180px;
-    border: 6px solid white #335c67;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    border-radius: 0px 0px 70px 70px;
-    background: url("/resources/images/coffee.png"); 
-    box-shadow: 0px 0px 0px 6px white;
-    background-repeat: repeat-x;
-    background-position: 0px 140px;
-    animation: fill 2.5s infinite;
-  }
-  .handle {
-    height: 70px;
-    width: 40px;
-    background-color: transparent;
-    border: 6px solid white;
-    position: relative;
-    left: 186px;
-    top: 5px;
-    border-radius: 0px 25px 80px 0px;
-  }
-  
-  @keyframes fill{
-    0%{
-      background-position: 0px 140px;
-    }
-    20%{
-      background-position:-450px 100px;
-    }
-    40%{
-      background-position: -900px 50px;
-    }
-    80%{
-      background-position: -1350px -40px;
-    }
-    100%{
-      background-position: 0px 140px;
-    }
-  }
-
 *,
 *:before,
 *:after {
@@ -56,11 +7,12 @@
 }
 
 html {
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 body {
     background-color: whitesmoke;
+    letter-spacing: 2px;
 }
 
 nav {
@@ -87,6 +39,7 @@ header {
 .logo {
     color: #ffff;
     font-weight: 600;
+    letter-spacing: 2px;
 }
 
 ul {
@@ -103,8 +56,9 @@ li a {
 
 nav a {
     color: #ffff;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
     text-decoration: none;
+    font-size: 18px;
 }
  /* About Section*/
 
@@ -124,9 +78,11 @@ nav a {
     margin-bottom: 3rem;
 }
 
-.about h2 {
+.about p {
     font-weight: 400;
-    word-spacing: normal;
+    font-size: 22px;
+    letter-spacing: 0.005rem;
+    line-height: 2.5rem;
     color: #7f5539;
 }
 /* Middle Section with the Cards*/
@@ -138,27 +94,6 @@ nav a {
     padding: 0 5rem;
 }
 
-
-.middle .mid .box img{
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.8;
-}
-
-.middle .mid .box {
-    position: relative;
-    height: 17rem;
-    width: 17rem;
-    border-radius: 20px;
-    overflow: hidden;
-    z-index: 1;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.15);
-    background-color: #333;
-}
-
 .middle .mid .box .content {
     text-align: center;
     padding: 2rem;
@@ -167,26 +102,32 @@ nav a {
 .middle .mid .box .content h2 {
     font-size: 3rem;
     font-weight: 600;
-    color: #fff;
+    color: #7f5539;
+}
+
+.middle .mid .box i {
+  font-size: 2rem;
+  color: #7f5539;
+  margin-left: 11rem;
 }
 
 /* Rewards Section */
 .btn {
     display: inline-block;
-    color: #7f5539;
-    background-color: #efebce;
+    color: #fff;
+    background-color: transparent;
     padding: 0.5rem 2rem;
     margin-top: 1.5rem;
     border-radius: 20px;
-    border: 1px solid;
-    font-weight: bold;
+    border: 1px solid #fff;
+    font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .btn:hover {
-    background-color: #fff;
+    background-color: #efebce;
     color: #7f5539;
 }
 
@@ -269,7 +210,7 @@ nav a {
   }
 
   input:focus, textarea:focus{
-    border: dotted 2px #7f5539;  
+    border: solid 1px #7f5539;  
   }
   
   textarea{
@@ -285,6 +226,12 @@ nav a {
     cursor: pointer;
     margin-top: 30px;
     font-size: 1.29em;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 
   input[type="submit"]:hover{

@@ -5,17 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>KoshyTea Cafe</title>
 </head>
 
 <body>
-    <div class="coffee">
-        <div class="cup">
-            <div class="handle"></div>
-        </div>
-    </div>
+
     <header>
         <nav>
             <div class="logo">
@@ -40,36 +37,37 @@
 
     <section class="about">
         <h1>About Us!</h1>
-        <h2>KoshyTea is a community gathering place. First established in 2021, KoshyTea was founded by humans and is a
+        <p>KoshyTea is a community gathering place. First established in 2021, KoshyTea was founded by humans and is a
             cultural hub for artists, activists, writers, thinkers and dreamers. We have updated our safety standards to
             exceed COVID regulations. Unfortunately, we do not allow indoor
             dining, however you can use our curbside pickup service and place your order using our KoshyTea mobile app!
-        </h2>
+        </p>
     </section>
 
     <section class="middle">
         <div class="mid">
             <div class="box">
+                <i class='bx bxs-truck'></i>
                 <div class="content">
                     <h2>Delivery</h2>
                 </div>
-                <img src="./resources/images/pexels-pixabay-221299.jpg" alt="">
             </div>
             <div class="box">
+                <i class='bx bxs-food-menu'></i>
                 <div class="content">
                     <h2>Menu</h2>
                 </div>
-                <img src="./resources/images/pexels-karthik-reddy-397913.jpg" alt="">
             </div>
             <div class="box">
+                <i class='bx bxs-coffee-alt'></i>
                 <div class="content">
                     <h2>Orders</h2>
                 </div>
-                <img src="./resources/images/pexels-oleg-magni-1005649.jpg" alt="">
             </div>
         </div>
     </section>
 
+    
     <section class="section">
         <div class="rewards-banner">
             <div class="left">
@@ -146,14 +144,6 @@
         </div>
         </div>
     </footer>
-    <script>
-        let coffee = document.querySelector('.coffee');
-
-        window.addEventListener('load', function () {
-            coffee.style.display = 'none';
-        });
-
-    </script>
 </body>
 
 </html>
