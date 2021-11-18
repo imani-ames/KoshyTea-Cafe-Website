@@ -220,8 +220,8 @@ nav a {
   }
 
   input[type="submit"]{
-    background-color: #7f5539;
-    color: white;
+    background-color: #ffff;
+    color: #7f5539;
     height: 50px;
     cursor: pointer;
     margin-top: 30px;
@@ -293,4 +293,91 @@ nav a {
     font-size: 1rem;
     font-weight: 300;
     margin-bottom: 1rem;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 250px) {
+    nav {
+        display: block;
+    }
+
+    li {
+        display: none;
+    }
+
+    header {
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .middle {
+        grid-template-columns: repeat(1, 310px);
+        column-gap: 4rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 350px) {
+    nav {
+        display: block;
+    }
+
+    li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    nav {
+        display: block;
+    }
+
+    li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        display: block;
+    }
+
+    li {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    nav {
+        display: block;
+    }
+
+    li {
+        display: none;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    .about {
+        display: grid;
+        justify-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 850px) {
+    nav {
+        display: block;
+    }
+
+    li {
+        font-size: 1.6rem;
+    }
 }
