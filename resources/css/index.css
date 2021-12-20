@@ -25,7 +25,7 @@ nav {
     top: 0;
     padding: 25px 35px;
     font-weight: 400;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(90px);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 }
 
