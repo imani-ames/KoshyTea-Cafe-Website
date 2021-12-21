@@ -285,6 +285,7 @@ nav a {
     background-color: #7f5539;
     padding: 3rem 1rem;
     line-height: 1.5rem;
+    color: #ffff;
 }
 
 .footer-center span {
@@ -295,7 +296,7 @@ nav a {
 .footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    color: #fff;
+    color: #ffff;
     margin-right: auto;
     padding-left: 2rem;
 }
@@ -303,16 +304,13 @@ nav a {
 .footer-center a:link,
 .footer-center a:visited{
     display: block;
-    color: #edf6f9;
     font-size: 1rem;
     font-weight: 200;
     transition: 0.6s;
     text-decoration: none;
+    color: #ffff;
 }
 
-.footer-center a:hover {
-    color: #fff;
-}
 
 .footer-center h3 {
     font-size: 1rem;
