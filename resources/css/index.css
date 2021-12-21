@@ -8,6 +8,7 @@
 
 html {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -119,7 +120,7 @@ nav a {
 
 .middle .mid .box .content p{
     font-weight: 400;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     font-size: 20px;
     letter-spacing: 0.003rem;
     line-height: 2.3rem;
@@ -174,13 +175,17 @@ nav a {
 
 .section .rewards-banner .left h2 span {
     color: #ffff;
-    font-size: 3rem;
+    font-size: 1.8em;
     font-weight: 400;
 }
 
 .section .rewards-banner .left h3 span {
     color: #ffff;
     font-weight: 300;
+}
+
+.section .rewards-banner .left h3 {
+    margin-top: 1.5rem;
 }
 
 
@@ -256,7 +261,7 @@ nav a {
 
   input[type="submit"]:hover{
     
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     
   }
 
